@@ -1,4 +1,65 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0px;
+  font-family: "cursive";
+  color: #333;
+  background-color: rgb(237, 235, 235);
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #9e7272;
+}
+
+.navbar h2{
+  color: rgba(29, 105, 24, 0.834);
+}
+
+.navbar.link{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: rgb(16, 5, 27);
+}
+
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: solid #d4e2d7;
+}
+
+.preview:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0,0.1);
+}
+
+.preview h3{
+  font-size: 15px;
+  color: blueviolet;
+  margin-bottom: 6px;
+}
+
+.preview a{
+  text-decoration: none !important;
+}
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,5 +70,6 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    monospace;
+} */
+
